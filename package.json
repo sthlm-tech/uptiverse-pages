@@ -1,0 +1,19 @@
+{
+  "name": "uptiverse-pages",
+  "version": "1.0.0",
+  "description": "Web API to fetch resources used in the pages section in Uptiverse.",
+  "main": "app.js",
+  "dependencies": {
+    "mongoose": "^4.5.10",
+    "ms-core": "^0.0.22",
+    "underscore": "^1.8.3",
+    "when": "^3.7.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node app.js"
+  },
+  "author": "Rasmus Johansson",
+  "license": "ISC"
+}
