@@ -1,5 +1,5 @@
 module.exports = {
-	enableSecurity: false,
+	enableSecurity: true,
 	port: 5000,
 	cacheEnabled: false,
 	cacheDuration: 3600000,
