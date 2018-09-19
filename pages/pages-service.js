@@ -1,15 +1,15 @@
-var Information = require("./Information");
+var Important = require("./Important");
 var when = require('when');
 
 function PagesService() {
 	var self = this;
 
-	self.getinformation = function(){
+	self.getimportant = function(){
 
         var deferred = when.defer();
 
-		Information.find({})
-		.sort({published: 'descending'})
+		Important.find({})
+		.sort({importance: 'asc'})
 		.exec(function(err, pages) {
 			deferred.resolve(pages);
 		});
